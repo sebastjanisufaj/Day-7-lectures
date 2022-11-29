@@ -48,3 +48,19 @@ let userAttempt = 25;
 console.log("\nGuess? ", numberToGuess === userAttempt);
 
 console.log("\nGuess? ", numberToGuess !== userAttempt);
+
+
+let height = 195;
+let hairColor = "blonde";
+
+let tallerThan185 = height > 185;
+
+console.log("\nIs Taller than 185?", tallerThan185);
+
+let blondHair = hairColor == "black";
+console.log("is he blonde?", blondHair);
+
+let tallerAndBlonde = tallerThan185 || blondHair;
+
+console.log(tallerAndBlonde);
+
